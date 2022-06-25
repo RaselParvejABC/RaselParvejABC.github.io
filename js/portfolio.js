@@ -35,7 +35,8 @@ function getPortfolioItemHTML(project) {
             <div class="portfolio-item-card card bg-secondary text-white" data-bs-toggle="tooltip" title="${project['description']}">
                 <div class="card-body flex-fill">
                     <h4 class="card-title">${project['name']}</h4>
-                    <a href="${project['html_url']}" class="card-link" target="_blank">See on Github</a>
+                    <p class="card-body">${project['description']}</p>
+                    <a href="${project['html_url']}" class="card-link text-decoration-none" target="_blank">See on Github</a>
                 </div>
             </div>
 
